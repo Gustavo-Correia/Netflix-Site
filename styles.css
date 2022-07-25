@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+section h1{
+    position: absolute;
+    top: 800px;
+    left: 120px;
+    font-size: 50px;
+}
+
+section p{
+    position: absolute;
+    top: 880px;
+    left: 120px;
+    font-size: 25px;
+}
+.main{
+    height: 635px;
+    width: 1349px;
+    background: url(wallpaper.jpg) center no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+.main h1{
+    font-size: 47px;
+    top: -50px;
+    position: relative;
+    text-align: center;
+}
+
+.main span{
+position: relative;
+top: 110px;
+font-size: 25px;
+text-align: center;
+}
+
+.main p{
+position: relative;
+top: 30px;
+font-size: 18px;
+text-align: center;
+}
+
+.form-cta{
+display: grid;
+grid-template-columns: 450px 180px;
+height: 65px;
+position: absolute;
+top: 450px;
+color: black;
+}
+.form-cta button{
+    background: #e50014;
+    font-size: 25px;
+    color: white;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+.form-cta button::after{
+    content: "";
+    display: inline-block;
+    width: 9px;
+    height: 19px;
+    background: url(seta.svg);
+    margin-left: 10px;
+}
+
+.emi {
+    position: relative;
+    animation-name: em;
+    animation-duration: 1s;
+}
+
+@keyframes em{
+    to{
+        transform: translateY(0);
+    }
+    from{
+        transform:translateY(100px);
+    }
+}
+
+.form-cta input{
+    padding-left: 10px;
+}
+
+.gradiant{
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.sub-main{
+    z-index: 1;
+}
+
+.cap{
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1290px;
+    top: 28px;
+    left: 26px;
+    cursor: pointer;
+}
+
+.cap a{
+    display: inline-block;
+    background: red;
+    color: white;
+    align-self: flex-start;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 3px;
+}
+
+.tv{
+   position: absolute;
+   left: 700px;
+   z-index: 1;
+}
+
+.vid{
+    position: relative;
+    left: 780px;
+    top: 100px;
+    width: 469px;
+}
+
+
+
+.onze{
+position: absolute;
+top: 1200px;
+
+}
+
+.container-2 img{
+   width: 500px;
+    height: auto;
+   border: 0;
+    max-width: 100%;
+}
+
+.container-2 h1{
+    position: absolute;
+    left: 680px;
+    top: 1350px;
+    font-size: 50px;
+ }
+
+ .container-2 p{
+    position: absolute;
+    left: 680px;
+    top: 1480px;
+    font-size: 26px;
+ }
+
+ .container-3 h1{
+    position: absolute;
+    left: 100px;
+    top: 1780px;
+    font-size: 45px;
+ }
+ 
+ .container-3 p{
+    position: absolute;
+    left: 100px;
+    top: 1850px;
+    font-size: 26px;
+ }
+
+.container-4 h1{
+    position: absolute;
+    left: 700px;
+    top: 2200px;
+    font-size: 50px;
+}
+
+.container-4 p{
+    position: absolute;
+    left: 700px;
+    top: 2340px;
+    font-size: 26px;
+}
+
+
+
+
+ .watch img{
+    position: absolute;
+    top: 1650px;
+    left: 750px;
+    width: 500px;
+    z-index: 100;
+ }
+
+ .watch video{
+    position: relative;
+    top: 800px;
+    left: 860px;
+    width: 270px;
+    
+ }
+
+ .kids img{
+    position: absolute;
+    top: 2100px;
+ }
+
+ .end-questions h1{
+font-size: 50px;
+position: relative;
+top: 1700px;
+text-align: center;
+ }
+
+ .form-cta2{
+    display: grid;
+    grid-template-columns: 450px 180px;
+    height: 65px;
+    position: absolute;
+    top: 3500px;
+    color: black;
+    left: 370px;
+    }
+    .form-cta2 button{
+        background: #e50014;
+        font-size: 25px;
+        color: white;
+        border: none;
+        outline: none;
+        text-transform: uppercase;
+    }
+    .form-cta2 button::after{
+        content: "";
+        display: inline-block;
+        width: 9px;
+        height: 19px;
+        background: url(seta.svg);
+        margin-left: 10px;
+    }
+
+    .another p{
+        position: absolute;
+        top: 3450px;
+        left: 365px;
+        font-size: 19px;
+    }
+
+    
